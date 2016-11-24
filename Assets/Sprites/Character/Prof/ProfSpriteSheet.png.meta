@@ -1,0 +1,171 @@
+fileFormatVersion: 2
+guid: 56dbc6260797f4becb48255ba0351c5c
+timeCreated: 1479952256
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: profback1
+    21300002: profback2
+    21300004: proffront1
+    21300006: proffront2
+    21300008: profleft1
+    21300010: profleft2
+    21300012: profright1
+    21300014: profright2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: profback1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 159
+        width: 67
+        height: 106
+      alignment: 9
+      pivot: {x: 0.5522388, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: profback2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 267
+        width: 71
+        height: 119
+      alignment: 9
+      pivot: {x: 0.57746476, y: 0.49579832}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: proffront1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 276
+        width: 70
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5857143, y: 0.5086207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: proffront2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 162
+        width: 70
+        height: 114
+      alignment: 9
+      pivot: {x: 0.5857143, y: 0.50877196}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: profleft1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 394
+        width: 78
+        height: 117
+      alignment: 9
+      pivot: {x: 0.51282054, y: 0.46153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: profleft2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 388
+        width: 79
+        height: 123
+      alignment: 9
+      pivot: {x: 0.51898736, y: 0.4878049}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: profright1
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 394
+        width: 77
+        height: 117
+      alignment: 9
+      pivot: {x: 0.5584416, y: 0.4871795}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: profright2
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 278
+        width: 76
+        height: 114
+      alignment: 9
+      pivot: {x: 0.55263156, y: 0.47368422}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

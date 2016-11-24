@@ -1,0 +1,171 @@
+fileFormatVersion: 2
+guid: 5d32ce9941483428fa9d840874ca49fa
+timeCreated: 1479745733
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: girlstudentfback1
+    21300002: girlstudentfback2
+    21300004: girlstudentfront1
+    21300006: girlstudentfront2
+    21300008: girlstudentleft1
+    21300010: girlstudentleft2
+    21300012: girlstudentright1
+    21300014: girlstudentright2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: girlstudentfback1
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 165
+        width: 76
+        height: 106
+      alignment: 9
+      pivot: {x: 0.5394737, y: 0.5283019}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: girlstudentfback2
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 47
+        width: 81
+        height: 112
+      alignment: 9
+      pivot: {x: 0.54320985, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: girlstudentfront1
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 273
+        width: 89
+        height: 113
+      alignment: 9
+      pivot: {x: 0.5168539, y: 0.5221239}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: girlstudentfront2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 161
+        width: 89
+        height: 113
+      alignment: 9
+      pivot: {x: 0.5168539, y: 0.5221239}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: girlstudentleft1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 388
+        width: 90
+        height: 123
+      alignment: 9
+      pivot: {x: 0.5777778, y: 0.50406504}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: girlstudentleft2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 276
+        width: 90
+        height: 123
+      alignment: 9
+      pivot: {x: 0.5777778, y: 0.50406504}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: girlstudentright1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 401
+        width: 93
+        height: 110
+      alignment: 9
+      pivot: {x: 0.4408602, y: 0.48181817}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: girlstudentright2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 47
+        width: 88
+        height: 112
+      alignment: 9
+      pivot: {x: 0.4659091, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

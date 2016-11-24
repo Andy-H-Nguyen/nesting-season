@@ -1,0 +1,171 @@
+fileFormatVersion: 2
+guid: 1ce25748cd6944fcaafd74bf38a7e473
+timeCreated: 1479745733
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: babyback1
+    21300002: babyback2
+    21300004: babyfront1
+    21300006: babyfront2
+    21300008: babyleft1
+    21300010: babyleft2
+    21300012: babyright1
+    21300014: babyright2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: babyback1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 176
+        width: 76
+        height: 106
+      alignment: 9
+      pivot: {x: 0.46052632, y: 0.6698113}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: babyback2
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 296
+        width: 64
+        height: 115
+      alignment: 9
+      pivot: {x: 0.375, y: 0.67826086}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: babyfront1
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 413
+        width: 67
+        height: 98
+      alignment: 9
+      pivot: {x: 0.35820895, y: 0.6632653}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: babyfront2
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 198
+        width: 68
+        height: 96
+      alignment: 9
+      pivot: {x: 0.3529412, y: 0.6666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: babyleft1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 284
+        width: 91
+        height: 117
+      alignment: 9
+      pivot: {x: 0.71428573, y: 0.7863248}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: babyleft2
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 278
+        width: 91
+        height: 112
+      alignment: 9
+      pivot: {x: 0.71428573, y: 0.77678573}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: babyright1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 403
+        width: 92
+        height: 108
+      alignment: 9
+      pivot: {x: 0.2826087, y: 0.6851852}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: babyright2
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 392
+        width: 91
+        height: 119
+      alignment: 9
+      pivot: {x: 0.2857143, y: 0.71428573}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
