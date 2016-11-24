@@ -1,0 +1,16 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:85ee85c04268697fae2fa27f93bb2863:130f88cc0237a1b2a5604030c00acc47:439b83f2b7a425606f4ba0b6d53e1bb6$
+#
+:format=40000
+:texture=SpawnDeathSpriteSheet.png
+:size=256x256
+:pivotpoints=enabled
+
+spawn1;142;185;62;70;0.6290322580645161;0.5142857142857142; 6;62;54;62;14;29;0;1;18;0;51;21;70; 4;3;0;2;3;4;0;0;1;2;0;4;5
+spawn2;1;29;116;107;0.4051724137931034;0.4953271028037384; 7;116;61;84;7;50;0;10;20;0;50;21;91;70;107; 5;1;5;6;4;2;3;4;5;2;1;2;5;0;1;6
+spawn3;1;138;139;117;0.460431654676259;0.4786324786324786; 6;94;112;139;78;98;0;47;15;0;62;34;117; 4;3;4;5;0;1;2;0;2;3;0;3;5
