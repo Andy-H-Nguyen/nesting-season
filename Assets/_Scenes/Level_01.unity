@@ -468,7 +468,7 @@ Prefab:
     - target: {fileID: 212000010401601088, guid: b9ffe425eaa0a4f94ad5c1b530fed6a6,
         type: 2}
       propertyPath: m_SortingOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b9ffe425eaa0a4f94ad5c1b530fed6a6, type: 2}
@@ -512,23 +512,19 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 23000010054102454, guid: eb9d6f9ee7dcf4e6cbccd094db886bc8,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 23000012011939732, guid: eb9d6f9ee7dcf4e6cbccd094db886bc8,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 23000012947866404, guid: eb9d6f9ee7dcf4e6cbccd094db886bc8,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_SortingOrder
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 23000012947866404, guid: eb9d6f9ee7dcf4e6cbccd094db886bc8,
-        type: 2}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
@@ -552,7 +548,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
-  speed: 4
+  speed: 5
 --- !u!50 &1038297175
 Rigidbody2D:
   serializedVersion: 2
