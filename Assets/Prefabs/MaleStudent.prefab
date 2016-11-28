@@ -23,6 +23,7 @@ GameObject:
   - 61: {fileID: 61000011798663254}
   - 114: {fileID: 114000012808509116}
   - 50: {fileID: 50000012172557838}
+  - 114: {fileID: 114000013173972344}
   m_Layer: 0
   m_Name: MaleStudent
   m_TagString: Respawn
@@ -88,6 +89,17 @@ MonoBehaviour:
   explosionPrefab: {fileID: 4000010619130888, guid: 6e890994d036143b4b6fde7a883eae46,
     type: 2}
   speed: 2
+--- !u!114 &114000013173972344
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011497081370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1874989c5e2da094ea00112c6a895694, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212000012997893992
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -116,7 +128,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300006, guid: 1cb6e62bc2e84484a9325a99a7670640, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

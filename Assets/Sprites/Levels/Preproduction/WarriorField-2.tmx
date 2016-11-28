@@ -28,6 +28,7 @@
     <object id="4" x="0.25" y="0.25" width="31.625" height="31.6875"/>
     <object id="8" x="0.25" y="0.4375" width="31.75" height="31.5625"/>
     <object id="10" x="0.125" y="0.3125" width="31.9375" height="31.625"/>
+    <object id="11" x="0" y="0.181818" width="32" height="31.8182"/>
    </objectgroup>
   </tile>
  </tileset>
