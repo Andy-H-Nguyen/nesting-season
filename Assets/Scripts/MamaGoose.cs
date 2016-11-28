@@ -9,6 +9,7 @@ public class MamaGoose : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		rb = GetComponent<Rigidbody2D>();
+		rb.freezeRotation = true;
 		rb.velocity = new Vector2 (0, -speed);
 	}
 
