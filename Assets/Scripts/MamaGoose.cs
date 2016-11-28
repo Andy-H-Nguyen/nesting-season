@@ -3,14 +3,19 @@ using System.Collections;
 
 public class MamaGoose : MonoBehaviour {
 
-	public Rigidbody2D rb;
+	private Rigidbody2D rb;
+	private Transform lastPiece;
+
 	public float speed;
+	public Transform tailPrefab;
+
 
 	// Use this for initialization
 	void Start () {
 		rb = GetComponent<Rigidbody2D>();
 		rb.freezeRotation = true;
 		rb.velocity = new Vector2 (0, -speed);
+		lastPiece = transform;
 	}
 
 	// Update is called once per frame
@@ -28,5 +33,12 @@ public class MamaGoose : MonoBehaviour {
 			rb.velocity = new Vector2 (0, speed);
 			GetComponent<Animator>().Play ("MamaGooseWalkUp");
 		}
+	}
+
+	void AddGoosling () {
+//		Object newPiece = Instantiate (tailPrefab, transform.position - ((Vector3) rb.velocity * 100), Quaternion.identity);
+//		newPiece.name = "Piece";
+//		newPiece.GetComponent<SmoothFollow>().target = lastPiece;
+//		lastPiece = newPiece;
 	}
 }

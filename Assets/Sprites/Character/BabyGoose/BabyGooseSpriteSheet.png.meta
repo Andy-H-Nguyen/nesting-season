@@ -1,17 +1,17 @@
 fileFormatVersion: 2
 guid: 1ce25748cd6944fcaafd74bf38a7e473
-timeCreated: 1479745733
+timeCreated: 1480355807
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: babyback1
-    21300002: babyback2
-    21300004: babyfront1
-    21300006: babyfront2
-    21300008: babyleft1
-    21300010: babyleft2
-    21300012: babyright1
-    21300014: babyright2
+    21300000: BabyGooseSpriteSheet_0
+    21300002: BabyGooseSpriteSheet_1
+    21300004: BabyGooseSpriteSheet_2
+    21300006: BabyGooseSpriteSheet_3
+    21300008: BabyGooseSpriteSheet_4
+    21300010: BabyGooseSpriteSheet_5
+    21300012: BabyGooseSpriteSheet_6
+    21300014: BabyGooseSpriteSheet_7
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -38,7 +38,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -61,109 +61,109 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: babyback1
+      name: BabyGooseSpriteSheet_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 176
-        width: 76
-        height: 106
-      alignment: 9
-      pivot: {x: 0.46052632, y: 0.6698113}
+        x: 4
+        y: 405
+        width: 85
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: babyback2
+      name: BabyGooseSpriteSheet_1
       rect:
         serializedVersion: 2
-        x: 188
-        y: 296
-        width: 64
-        height: 115
-      alignment: 9
-      pivot: {x: 0.375, y: 0.67826086}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: babyfront1
-      rect:
-        serializedVersion: 2
-        x: 188
-        y: 413
-        width: 67
-        height: 98
-      alignment: 9
-      pivot: {x: 0.35820895, y: 0.6632653}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: babyfront2
-      rect:
-        serializedVersion: 2
-        x: 187
-        y: 198
-        width: 68
-        height: 96
-      alignment: 9
-      pivot: {x: 0.3529412, y: 0.6666667}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: babyleft1
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 284
-        width: 91
-        height: 117
-      alignment: 9
-      pivot: {x: 0.71428573, y: 0.7863248}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: babyleft2
-      rect:
-        serializedVersion: 2
-        x: 94
-        y: 278
-        width: 91
-        height: 112
-      alignment: 9
-      pivot: {x: 0.71428573, y: 0.77678573}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: babyright1
-      rect:
-        serializedVersion: 2
-        x: 1
+        x: 98
         y: 403
-        width: 92
-        height: 108
-      alignment: 9
-      pivot: {x: 0.2826087, y: 0.6851852}
+        width: 85
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: babyright2
+      name: BabyGooseSpriteSheet_2
       rect:
         serializedVersion: 2
-        x: 95
-        y: 392
-        width: 91
-        height: 119
-      alignment: 9
-      pivot: {x: 0.2857143, y: 0.71428573}
+        x: 190
+        y: 416
+        width: 53
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BabyGooseSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 304
+        width: 85
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BabyGooseSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 291
+        width: 85
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BabyGooseSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 312
+        width: 53
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BabyGooseSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 184
+        width: 53
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BabyGooseSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 200
+        width: 53
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 
