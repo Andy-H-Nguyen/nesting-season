@@ -219,6 +219,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec7aebfb4998f4dbc80f81202d27863c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnPrefab: {fileID: 0}
+  maxEnemies: 10
 --- !u!1001 &286267723
 Prefab:
   m_ObjectHideFlags: 0
@@ -478,8 +480,59 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 23000011876882316, guid: eb9d6f9ee7dcf4e6cbccd094db886bc8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: eb9d6f9ee7dcf4e6cbccd094db886bc8, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &920547216
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4000013851189562, guid: c59f2a33a1d084d7a9d93f1d6ebadf9d, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 2.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013851189562, guid: c59f2a33a1d084d7a9d93f1d6ebadf9d, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 6.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013851189562, guid: c59f2a33a1d084d7a9d93f1d6ebadf9d, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013851189562, guid: c59f2a33a1d084d7a9d93f1d6ebadf9d, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013851189562, guid: c59f2a33a1d084d7a9d93f1d6ebadf9d, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013851189562, guid: c59f2a33a1d084d7a9d93f1d6ebadf9d, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013851189562, guid: c59f2a33a1d084d7a9d93f1d6ebadf9d, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013851189562, guid: c59f2a33a1d084d7a9d93f1d6ebadf9d, type: 2}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011497081370, guid: c59f2a33a1d084d7a9d93f1d6ebadf9d, type: 2}
+      propertyPath: m_Name
+      value: MaleStudent (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: c59f2a33a1d084d7a9d93f1d6ebadf9d, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1038297170 stripped
 GameObject:

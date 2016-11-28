@@ -11,7 +11,7 @@ public class Student : MonoBehaviour {
 	private float initialX;
 	private float initialY;
 	private float WalkRange = 2.0f; // Range of motion
-	public float speed = 2.0f;
+	private float speed = 2.0f;
 
 	void Start () {
 		rb = GetComponent<Rigidbody2D>();
@@ -21,6 +21,7 @@ public class Student : MonoBehaviour {
 		initialY = transform.position.y;
 
 		WalkRange = Random.Range (1f, 4f);
+		speed = Random.Range (1f, 4f);
 
 		if (Random.Range (0f, 1f) < 0.5f) {
 			walkInX = false;
@@ -63,7 +64,15 @@ public class Student : MonoBehaviour {
 
 
 	void OnCollisionEnter2D(Collision2D coll) {
-		Instantiate(explosionPrefab, gameObject.transform.position, Quaternion.identity);
-		Destroy(gameObject);
+		if (coll.transform.name == "MamaGoose") {
+			Instantiate (explosionPrefab, gameObject.transform.position, Quaternion.identity);
+			Destroy (gameObject);
+		} else {
+			// Hit with object, recalculate position
+			walkForward = !walkForward;
+			initialX = transform.position.x;
+			initialY = transform.position.y;
+
+		}
 	}
 }
