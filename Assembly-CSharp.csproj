@@ -47,6 +47,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\BabyGoose.cs" />
      <Compile Include="Assets\Scripts\CameraFollowingController.cs" />
+     <Compile Include="Assets\Scripts\GenericAnimationHandler.cs" />
      <Compile Include="Assets\Scripts\Level.cs" />
      <Compile Include="Assets\Scripts\LevelManager.cs" />
      <Compile Include="Assets\Scripts\MamaGoose.cs" />

@@ -24,6 +24,8 @@ GameObject:
   - 114: {fileID: 114000012808509116}
   - 50: {fileID: 50000012172557838}
   - 114: {fileID: 114000013173972344}
+  - 95: {fileID: 95000012298922262}
+  - 114: {fileID: 114000011815638000}
   m_Layer: 0
   m_Name: MaleStudent
   m_TagString: Respawn
@@ -75,6 +77,34 @@ BoxCollider2D:
   m_Offset: {x: -0.02000001, y: -0.01999998}
   serializedVersion: 2
   m_Size: {x: 0.8, y: 1.16}
+--- !u!95 &95000012298922262
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011497081370}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 057257d0eeff84c0eab578d0d2f62e7f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114000011815638000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011497081370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1be463697a3894175a994b1869e0b4e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114000012808509116
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -88,7 +118,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   explosionPrefab: {fileID: 4000010619130888, guid: 6e890994d036143b4b6fde7a883eae46,
     type: 2}
-  speed: 2
 --- !u!114 &114000013173972344
 MonoBehaviour:
   m_ObjectHideFlags: 1

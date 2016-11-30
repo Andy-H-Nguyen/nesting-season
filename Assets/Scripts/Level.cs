@@ -12,7 +12,6 @@ public class Level : MonoBehaviour {
 	void Start () {
 		getCount = GameObject.FindGameObjectsWithTag ("Respawn");
 		count = getCount.Length;
-		Debug.Log (count);
 	}
 	
 	// Update is called once per frame

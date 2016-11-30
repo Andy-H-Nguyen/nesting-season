@@ -21,6 +21,7 @@ GameObject:
   - 4: {fileID: 4000010943962216}
   - 212: {fileID: 212000010550307678}
   - 114: {fileID: 114000013775408448}
+  - 95: {fileID: 95000014236950752}
   m_Layer: 8
   m_Name: BabyGoose
   m_TagString: Untagged
@@ -41,6 +42,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!95 &95000014236950752
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010538957018}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 696f411233ce745bbb4c946d2d91786c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &114000013775408448
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -81,7 +99,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300014, guid: 1ce25748cd6944fcaafd74bf38a7e473, type: 3}
+  m_Sprite: {fileID: 21300004, guid: 08d21845ad28c4e04b849f0620238c4d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

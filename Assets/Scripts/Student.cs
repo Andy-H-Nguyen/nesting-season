@@ -52,11 +52,11 @@ public class Student : MonoBehaviour {
 			else
 				transform.Translate (-Vector2.up * speed * Time.deltaTime);
 
-			if (transform.position.y >= initialX + WalkRange) {
+			if (transform.position.y >= initialY + WalkRange) {
 				walkForward = false;
 			}
 
-			if (transform.position.y <= initialX - WalkRange) {
+			if (transform.position.y <= initialY - WalkRange) {
 				walkForward = true;
 			}
 		}
