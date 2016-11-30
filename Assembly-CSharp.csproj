@@ -53,6 +53,7 @@
      <Compile Include="Assets\Scripts\MamaGoose.cs" />
      <Compile Include="Assets\Scripts\Poof.cs" />
      <Compile Include="Assets\Scripts\SnakeMovement.cs" />
+     <Compile Include="Assets\Scripts\StageTimer.cs" />
      <Compile Include="Assets\Scripts\Student.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\ImportBehaviour.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\SortingLayerExposed.cs" />

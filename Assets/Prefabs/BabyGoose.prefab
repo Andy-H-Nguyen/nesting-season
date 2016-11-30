@@ -23,6 +23,8 @@ GameObject:
   - 114: {fileID: 114000013775408448}
   - 95: {fileID: 95000014236950752}
   - 114: {fileID: 114000011702067196}
+  - 58: {fileID: 58000012966307032}
+  - 114: {fileID: 114000014123490852}
   m_Layer: 8
   m_Name: BabyGoose
   m_TagString: Untagged
@@ -43,6 +45,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!58 &58000012966307032
+CircleCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010538957018}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.15
 --- !u!95 &95000014236950752
 Animator:
   serializedVersion: 3
@@ -82,6 +98,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1874989c5e2da094ea00112c6a895694, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114000014123490852
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010538957018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2818d7848e31d48b8b8b5c452a2bdef8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LevelManager: {fileID: 0}
+  explosionPrefab: {fileID: 4000010619130888, guid: 6e890994d036143b4b6fde7a883eae46,
+    type: 2}
+  followSharpness: 0.1
 --- !u!212 &212000010550307678
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -20,6 +20,7 @@ public class SnakeMovement : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		prevBodyPart = bodyParts [0];
 		for (int i = 0; i < beginSize - 1; i++) {
 			AddBodyPart ();
 		}
@@ -47,6 +48,9 @@ public class SnakeMovement : MonoBehaviour {
 		for(int i = 1; i < bodyParts.Count; i++) {
 				curBodyPart = bodyParts[i];
 				prevBodyPart = bodyParts[i-1];
+				
+				// Don't collide with previous segment
+				Physics2D.IgnoreCollision(prevBodyPart.GetComponent<Collider2D>(), curBodyPart.GetComponent<Collider2D>());
 
 				curBodyPart.position = new Vector3(curBodyPart.position.x, curBodyPart.position.y, 0);
 				prevBodyPart.position = new Vector3(prevBodyPart.position.x, prevBodyPart.position.y, 0);
@@ -73,13 +77,13 @@ public class SnakeMovement : MonoBehaviour {
 			bodyParts[bodyParts.Count - 1].position, 
 			bodyParts[bodyParts.Count - 1].rotation)
 			as GameObject).transform;
-		
+
 		Transform spawnPoof = (Instantiate(
 			spawnPrefab, 
 			bodyParts[bodyParts.Count - 1].position, 
 			bodyParts[bodyParts.Count - 1].rotation)
 			as GameObject).transform; 
-		
+
 		newPart.SetParent (transform);
 		bodyParts.Add (newPart);
 	}
