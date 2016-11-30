@@ -255,7 +255,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
 --- !u!114 &150639468
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -630,7 +630,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  tailPrefab: {fileID: 0}
 --- !u!50 &1038297175
 Rigidbody2D:
   serializedVersion: 2
@@ -756,7 +755,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000013851189562, guid: c59f2a33a1d084d7a9d93f1d6ebadf9d, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1000011497081370, guid: c59f2a33a1d084d7a9d93f1d6ebadf9d, type: 2}
       propertyPath: m_Name
@@ -802,7 +801,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000013851189562, guid: c59f2a33a1d084d7a9d93f1d6ebadf9d, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1000011497081370, guid: c59f2a33a1d084d7a9d93f1d6ebadf9d, type: 2}
       propertyPath: m_Name

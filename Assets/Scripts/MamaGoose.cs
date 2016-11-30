@@ -7,8 +7,6 @@ public class MamaGoose : MonoBehaviour {
 	private Transform lastPiece;
 
 	public float speed;
-	public Transform tailPrefab;
-
 
 	// Use this for initialization
 	void Start () {
@@ -33,12 +31,5 @@ public class MamaGoose : MonoBehaviour {
 			rb.velocity = new Vector2 (0, speed);
 			GetComponent<Animator>().Play ("MamaGooseWalkUp");
 		}
-	}
-
-	void AddGoosling () {
-//		Object newPiece = Instantiate (tailPrefab, transform.position - ((Vector3) rb.velocity * 100), Quaternion.identity);
-//		newPiece.name = "Piece";
-//		newPiece.GetComponent<SmoothFollow>().target = lastPiece;
-//		lastPiece = newPiece;
 	}
 }

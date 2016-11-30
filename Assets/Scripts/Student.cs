@@ -65,6 +65,7 @@ public class Student : MonoBehaviour {
 
 	void OnCollisionEnter2D(Collision2D coll) {
 		if (coll.transform.name == "MamaGoose") {
+			coll.gameObject.transform.parent.gameObject.GetComponent<SnakeMovement> ().AddBodyPart ();
 			Instantiate (explosionPrefab, gameObject.transform.position, Quaternion.identity);
 			Destroy (gameObject);
 		} else {
@@ -72,7 +73,6 @@ public class Student : MonoBehaviour {
 			walkForward = !walkForward;
 			initialX = transform.position.x;
 			initialY = transform.position.y;
-
 		}
 	}
 }

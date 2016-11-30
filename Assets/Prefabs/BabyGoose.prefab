@@ -22,6 +22,7 @@ GameObject:
   - 212: {fileID: 212000010550307678}
   - 114: {fileID: 114000013775408448}
   - 95: {fileID: 95000014236950752}
+  - 114: {fileID: 114000011702067196}
   m_Layer: 8
   m_Name: BabyGoose
   m_TagString: Untagged
@@ -59,6 +60,17 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114000011702067196
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010538957018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1be463697a3894175a994b1869e0b4e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114000013775408448
 MonoBehaviour:
   m_ObjectHideFlags: 1

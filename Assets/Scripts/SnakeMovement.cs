@@ -12,6 +12,7 @@ public class SnakeMovement : MonoBehaviour {
 	public int beginSize = 1;
 
 	public GameObject bodyPrefab;
+	public GameObject spawnPrefab;
 
 	private float dis;
 	private Transform curBodyPart;
@@ -67,13 +68,18 @@ public class SnakeMovement : MonoBehaviour {
 	}
 
 	public void AddBodyPart() {
-		Debug.Log ("ADDBODYPART");
 		Transform newPart = (Instantiate(
 			bodyPrefab, 
 			bodyParts[bodyParts.Count - 1].position, 
 			bodyParts[bodyParts.Count - 1].rotation)
 			as GameObject).transform;
-
+		
+		Transform spawnPoof = (Instantiate(
+			spawnPrefab, 
+			bodyParts[bodyParts.Count - 1].position, 
+			bodyParts[bodyParts.Count - 1].rotation)
+			as GameObject).transform; 
+		
 		newPart.SetParent (transform);
 		bodyParts.Add (newPart);
 	}
