@@ -28,10 +28,12 @@ public class SnakeMovement : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		Move ();
+		if (bodyParts.Count > 1) {
+			Move ();
 
-		if (Input.GetKey(KeyCode.Q))
-			AddBodyPart ();
+			if (Input.GetKey (KeyCode.Q))
+				AddBodyPart ();
+		}
 	}
 
 	public void Move() {
@@ -84,7 +86,14 @@ public class SnakeMovement : MonoBehaviour {
 			bodyParts[bodyParts.Count - 1].rotation)
 			as GameObject).transform; 
 
+		Physics2D.IgnoreCollision(newPart.GetComponent<Collider2D>(), bodyParts[bodyParts.Count - 1].GetComponent<Collider2D>());
+
 		newPart.SetParent (transform);
 		bodyParts.Add (newPart);
+
+	}
+
+	public int GetLength() {
+		return bodyParts.Count;
 	}
 }

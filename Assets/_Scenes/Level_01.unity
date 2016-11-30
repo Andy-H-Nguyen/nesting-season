@@ -269,8 +269,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec7aebfb4998f4dbc80f81202d27863c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPrefab: {fileID: 0}
-  maxEnemies: 10
+  map: {fileID: 1667892875}
+  spawnPrefab: {fileID: 4000013851189562, guid: c59f2a33a1d084d7a9d93f1d6ebadf9d,
+    type: 2}
+  effectPrefab: {fileID: 4000010619130888, guid: 6e890994d036143b4b6fde7a883eae46,
+    type: 2}
+  maxEnemies: 6
 --- !u!1001 &286267723
 Prefab:
   m_ObjectHideFlags: 0
@@ -381,7 +385,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 1
+  orthographic: 0
   orthographic size: 6
   m_Depth: -1
   m_CullingMask:
@@ -657,7 +661,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000013851189562, guid: c59f2a33a1d084d7a9d93f1d6ebadf9d, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 6.45
+      value: 4.3
       objectReference: {fileID: 0}
     - target: {fileID: 4000013851189562, guid: c59f2a33a1d084d7a9d93f1d6ebadf9d, type: 2}
       propertyPath: m_LocalPosition.z
@@ -822,7 +826,7 @@ GameObject:
   - 114: {fileID: 1236279443}
   - 114: {fileID: 1236279446}
   m_Layer: 5
-  m_Name: Win
+  m_Name: Score
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -949,9 +953,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1236279441}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23c2aa2f2b3e34496b6f98a56f929af2, type: 3}
+  m_Script: {fileID: 11500000, guid: dfd1b3718a04f4a7bae6f8839123e3a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  congaLine: {fileID: 144137231}
 --- !u!1001 &1428633032
 Prefab:
   m_ObjectHideFlags: 0
@@ -1001,7 +1006,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 2000000, guid: b8d768afa12784b16bf04078835193a3, type: 2}
       propertyPath: orthographic
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2000000, guid: b8d768afa12784b16bf04078835193a3, type: 2}
       propertyPath: m_BackGroundColor.r
@@ -1131,7 +1136,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000013851189562, guid: c59f2a33a1d084d7a9d93f1d6ebadf9d, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 13.36
+      value: 4.9
       objectReference: {fileID: 0}
     - target: {fileID: 4000013851189562, guid: c59f2a33a1d084d7a9d93f1d6ebadf9d, type: 2}
       propertyPath: m_LocalPosition.z
@@ -1168,6 +1173,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c59f2a33a1d084d7a9d93f1d6ebadf9d, type: 2}
   m_IsPrefabParent: 0
+--- !u!4 &1667892875 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4000012353973720, guid: eb9d6f9ee7dcf4e6cbccd094db886bc8,
+    type: 2}
+  m_PrefabInternal: {fileID: 830222511}
 --- !u!1 &1688657781
 GameObject:
   m_ObjectHideFlags: 0
@@ -1180,8 +1190,9 @@ GameObject:
   - 222: {fileID: 1688657785}
   - 114: {fileID: 1688657784}
   - 114: {fileID: 1688657783}
+  - 114: {fileID: 1688657786}
   m_Layer: 5
-  m_Name: Lose
+  m_Name: Time
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1300,6 +1311,17 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1688657781}
+--- !u!114 &1688657786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1688657781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23c2aa2f2b3e34496b6f98a56f929af2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1738571834
 Prefab:
   m_ObjectHideFlags: 0

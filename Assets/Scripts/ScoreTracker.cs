@@ -2,8 +2,9 @@
 using UnityEngine.UI;
 using System.Collections;
 
-public class StageTimer : MonoBehaviour {
-	float timeLeft = 60;
+public class ScoreTracker : MonoBehaviour {
+
+	public Transform congaLine;
 
 	// Use this for initialization
 	void Start () {
@@ -12,13 +13,7 @@ public class StageTimer : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		timeLeft -= Time.deltaTime;
-		if(timeLeft < 0)
-		{
-			Debug.Log ("Gameover!");
-		}
-			
 		Text txt = gameObject.GetComponent<Text> ();
-		txt.text = "Time: " + (int) timeLeft;
+		txt.text = "Score: " + (congaLine.GetComponent<SnakeMovement>().GetLength() - 1);
 	}
 }

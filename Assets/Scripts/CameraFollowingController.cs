@@ -7,6 +7,7 @@ public class CameraFollowingController : MonoBehaviour {
 
 
 	private Vector3 offset;         //Private variable to store the offset distance between the player and camera
+	private int cameraZoom = 5;
 
 	// Use this for initialization
 	void Start () 
