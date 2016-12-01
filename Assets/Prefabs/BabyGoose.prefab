@@ -25,7 +25,7 @@ GameObject:
   - 114: {fileID: 114000011702067196}
   - 58: {fileID: 58000012966307032}
   - 114: {fileID: 114000014123490852}
-  - 82: {fileID: 82000013348504678}
+  - 82: {fileID: 82000010923800746}
   m_Layer: 8
   m_Name: BabyGoose
   m_TagString: Untagged
@@ -60,7 +60,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.15
---- !u!82 &82000013348504678
+--- !u!82 &82000010923800746
 AudioSource:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}

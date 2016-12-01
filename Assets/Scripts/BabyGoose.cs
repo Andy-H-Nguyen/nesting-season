@@ -5,10 +5,10 @@ public class BabyGoose : MonoBehaviour {
 
 	public Transform explosionPrefab;
 
-	Vector3 _followOffset;
-
+	private AudioSource aud;
 	void Start()
 	{
+		aud = gameObject.GetComponent<AudioSource> ();
 	}
 
 	void LateUpdate () 
@@ -18,8 +18,7 @@ public class BabyGoose : MonoBehaviour {
 
 	void OnCollisionEnter2D(Collision2D coll)  {
 		// Do a gameover
-		Debug.Log("This Happened");
-		gameObject.GetComponent<AudioSource>().Play();
+		aud.Play();
 		gameObject.GetComponentInParent<SnakeMovement> ().bodyParts.Remove (gameObject.transform);
 		Instantiate (explosionPrefab, gameObject.transform.position, Quaternion.identity);
 		Destroy (gameObject);
