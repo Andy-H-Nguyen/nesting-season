@@ -7,6 +7,8 @@ public class StageTimer : MonoBehaviour {
 
 	public GameObject levelManager;
 	public GameObject UIBlock;
+	public AudioSource sceneMusic;
+	public AudioSource gameoverMusic;
 	// Use this for initialization
 	void Start () {
 		UIBlock.SetActive (false);
@@ -18,7 +20,8 @@ public class StageTimer : MonoBehaviour {
 		if(timeLeft < 0)
 		{
 			Time.timeScale = 0;
-
+			sceneMusic.Stop ();
+			gameoverMusic.Play ();
 			UIBlock.SetActive (true);
 		}
 
