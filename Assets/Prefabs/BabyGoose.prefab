@@ -184,10 +184,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2818d7848e31d48b8b8b5c452a2bdef8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelManager: {fileID: 0}
   explosionPrefab: {fileID: 4000010619130888, guid: 6e890994d036143b4b6fde7a883eae46,
     type: 2}
-  followSharpness: 0.1
 --- !u!212 &212000010550307678
 SpriteRenderer:
   m_ObjectHideFlags: 1

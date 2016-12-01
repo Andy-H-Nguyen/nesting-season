@@ -18,6 +18,7 @@ public class BabyGoose : MonoBehaviour {
 
 	void OnCollisionEnter2D(Collision2D coll)  {
 		// Do a gameover
+		Debug.Log("This Happened");
 		gameObject.GetComponent<AudioSource>().Play();
 		gameObject.GetComponentInParent<SnakeMovement> ().bodyParts.Remove (gameObject.transform);
 		Instantiate (explosionPrefab, gameObject.transform.position, Quaternion.identity);

@@ -7,7 +7,6 @@ public class StageTimer : MonoBehaviour {
 
 	public GameObject levelManager;
 	public GameObject UIBlock;
-
 	// Use this for initialization
 	void Start () {
 		UIBlock.SetActive (false);
