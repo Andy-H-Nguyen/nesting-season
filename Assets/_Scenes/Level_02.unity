@@ -678,6 +678,11 @@ Prefab:
       propertyPath: TileHeight
       value: 64
       objectReference: {fileID: 0}
+    - target: {fileID: 23000014226203308, guid: 4e158e8e5d881458480746063f666a02,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4e158e8e5d881458480746063f666a02, type: 2}
   m_IsPrefabParent: 0
@@ -867,6 +872,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23c2aa2f2b3e34496b6f98a56f929af2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelManager: {fileID: 0}
 --- !u!114 &1226695208
 MonoBehaviour:
   m_ObjectHideFlags: 0

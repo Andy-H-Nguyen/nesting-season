@@ -3,7 +3,9 @@ using UnityEngine.UI;
 using System.Collections;
 
 public class StageTimer : MonoBehaviour {
-	float timeLeft = 60;
+	float timeLeft = 120;
+
+	public GameObject levelManager;
 
 	// Use this for initialization
 	void Start () {
@@ -15,7 +17,7 @@ public class StageTimer : MonoBehaviour {
 		timeLeft -= Time.deltaTime;
 		if(timeLeft < 0)
 		{
-			Debug.Log ("Gameover!");
+			levelManager.GetComponent<LevelManager> ().LoadLevel ("Start Menu");
 		}
 			
 		Text txt = gameObject.GetComponent<Text> ();
