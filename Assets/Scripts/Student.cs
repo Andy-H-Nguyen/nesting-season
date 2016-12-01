@@ -20,7 +20,7 @@ public class Student : MonoBehaviour {
 		initialX = transform.position.x;
 		initialY = transform.position.y;
 
-		WalkRange = Random.Range (1f, 4f);
+		WalkRange = Random.Range (3f, 6f);
 		speed = Random.Range (1f, 4f);
 
 		if (Random.Range (0f, 1f) < 0.5f) {
@@ -65,6 +65,7 @@ public class Student : MonoBehaviour {
 
 	void OnCollisionEnter2D(Collision2D coll) {
 		if (coll.transform.name == "MamaGoose") {
+			coll.gameObject.GetComponent<MamaGoose> ().PlayAttack ();
 			coll.gameObject.transform.parent.gameObject.GetComponent<SnakeMovement> ().AddBodyPart ();
 			Instantiate (explosionPrefab, gameObject.transform.position, Quaternion.identity);
 			Destroy (gameObject);

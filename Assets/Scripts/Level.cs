@@ -1,21 +1,23 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class Level : MonoBehaviour {
 	private int count;
 	private GameObject[] getCount;
-	private bool readyToSpawn = false;
 
 	public Transform map;
+	public Transform mapCollision;
 	public Transform congaLine;
-	public Transform spawnPrefab; 
+//	public Transform spawnPrefab; 
+	public List<Transform> spawnPrefabs = new List<Transform>();
 	public Transform effectPrefab;
-	public int maxEnemies = 12;
+	public int maxEnemies = 18;
 	public int distanceFromPlayer = 3;
 
 	// Use this for initialization
 	void Start () {
-		InvokeRepeating("TimedSpawn", 1f, 1f);
+		InvokeRepeating("TimedSpawn", 1f, 0.5f);
 	}
 	
 	// Update is called once per frame
@@ -28,8 +30,8 @@ public class Level : MonoBehaviour {
 		float mapWidth = mapScript.TileWidth;
 
 		// Get position in the map, approx,
-		float randomX = (Random.Range(map.position.x + 1, map.position.x + mapWidth - 1));
-		float randomY = (Random.Range(map.position.y - 1, map.position.y - mapHeight + 1));
+		float randomX = (Random.Range(map.position.x + 2, map.position.x + mapWidth - 2));
+		float randomY = (Random.Range(map.position.y - 2, map.position.y - mapHeight + 2));
 		return new Vector3 (randomX, randomY, 0);
 	}
 
@@ -42,13 +44,22 @@ public class Level : MonoBehaviour {
 
 	void Spawn () {
 		Vector3 spawnLocation = GetLocationInMap ();
+		PolygonCollider2D mapCollider = mapCollision.GetComponent<PolygonCollider2D> ();
+
 		while (isCloseToPlayer(spawnLocation)) {
+			float distanceFromCollider = Vector3.Distance (spawnLocation, mapCollider.bounds.ClosestPoint(spawnLocation));
+
+			if (mapCollider.bounds.Contains (spawnLocation) || distanceFromCollider < 3f) {
+				return;
+			}
 			spawnLocation = GetLocationInMap ();
 		}
 
-		Debug.Log ("Spawned at: " + spawnLocation.x + ',' + spawnLocation.y);
+		Random r = new Random();
+		int index = Random.Range(0,spawnPrefabs.Count);
+
 		Instantiate (effectPrefab, spawnLocation, Quaternion.identity);
-		Instantiate (spawnPrefab, spawnLocation, Quaternion.identity);
+		Instantiate (spawnPrefabs[index], spawnLocation, Quaternion.identity);
 	}
 
 	bool isCloseToPlayer(Vector3 v) {

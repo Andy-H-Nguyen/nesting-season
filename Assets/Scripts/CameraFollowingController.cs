@@ -6,6 +6,7 @@ public class CameraFollowingController : MonoBehaviour {
 	public GameObject player;       //Public variable to store a reference to the player game object
 	public Transform congaLine;
 	public int baseFov = 60;
+	public int maxFov = 100;
 	public int fovIncreaseModifier = 5;
 	public int fovIncreaseRatio = 1;
 
@@ -24,7 +25,11 @@ public class CameraFollowingController : MonoBehaviour {
 	void Update () 
 	{
 		int lineSize = congaLine.GetComponent<SnakeMovement> ().GetLength();
+
 		int newFov = baseFov + fovIncreaseModifier * (lineSize / fovIncreaseRatio);  
+		if (newFov < maxFov) {
+			newFov = baseFov + fovIncreaseModifier * (lineSize / fovIncreaseRatio); 
+		}
 		Camera.main.fieldOfView = Mathf.Lerp(Camera.main.fieldOfView, newFov, Time.deltaTime);
 	}
 

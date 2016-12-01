@@ -10,7 +10,7 @@
   <image source="ECHMacLab-colliders-pink.png" trans="ff00ff" width="1600" height="1600"/>
   <tile id="0">
    <objectgroup draworder="index">
-    <object id="2" x="10.3161" y="9.20284" width="11.3551" height="11.2067"/>
+    <object id="5" x="-0.617198" y="-0.1543" width="32.8658" height="32.4029"/>
    </objectgroup>
   </tile>
  </tileset>

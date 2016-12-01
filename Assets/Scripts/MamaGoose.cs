@@ -32,4 +32,18 @@ public class MamaGoose : MonoBehaviour {
 			GetComponent<Animator>().Play ("MamaGooseWalkUp");
 		}
 	}
+
+	public void PlayAttack() {
+		Animator anim = gameObject.GetComponent<Animator> ();
+		if (anim.GetCurrentAnimatorStateInfo (0).IsName ("MamaGooseWalkRight")) {
+			anim.Play ("MamaGooseAttackRight");
+		} else if(anim.GetCurrentAnimatorStateInfo (0).IsName ("MamaGooseWalkDown")) {
+			anim.Play ("MamaGooseAttackDown");
+		} else if(anim.GetCurrentAnimatorStateInfo (0).IsName ("MamaGooseWalkLeft")) {
+			anim.Play ("MamaGooseAttackLeft");
+		} else if(anim.GetCurrentAnimatorStateInfo (0).IsName ("MamaGooseWalkUp")) {
+			anim.Play ("MamaGooseAttackUp");
+		}
+
+	}
 }

@@ -15,7 +15,7 @@ public class BabyGoose : MonoBehaviour {
 
 	void LateUpdate () 
 	{
-
+		gameObject.transform.position = new Vector3 (gameObject.transform.position.x, gameObject.transform.position.y, 0);
 	}
 
 	void OnCollisionEnter2D(Collision2D coll)  {
