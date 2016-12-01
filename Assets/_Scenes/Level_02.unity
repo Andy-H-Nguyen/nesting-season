@@ -1088,7 +1088,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23c2aa2f2b3e34496b6f98a56f929af2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeLeft: 2
+  timeLeft: 120
   levelManager: {fileID: 208056081}
   UIBlock: {fileID: 1239211936}
   sceneMusic: {fileID: 1648696173}

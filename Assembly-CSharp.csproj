@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\Level.cs" />
      <Compile Include="Assets\Scripts\LevelManager.cs" />
      <Compile Include="Assets\Scripts\MamaGoose.cs" />
+     <Compile Include="Assets\Scripts\MenuSounds.cs" />
      <Compile Include="Assets\Scripts\Poof.cs" />
      <Compile Include="Assets\Scripts\ScoreTracker.cs" />
      <Compile Include="Assets\Scripts\SnakeMovement.cs" />
