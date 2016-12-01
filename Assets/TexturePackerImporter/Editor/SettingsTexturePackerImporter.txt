@@ -4,6 +4,7 @@ tpsheetFileNames:
 - Assets/Sprites/Character/Car/CarSpriteSheet.tpsheet
 - Assets/Sprites/Character/FemaleStudent/Femalestudentspritesheet.tpsheet
 - Assets/Sprites/Character/FootballPlayer/FootballplayerSpriteSheet.tpsheet
+- Assets/Sprites/Character/FootballPlayer/FootballPlayerSpritesheet.tpsheet
 - Assets/Sprites/Character/MaleStudent/Malestudentspritesheet.tpsheet
 - Assets/Sprites/Character/Prof/ProfSpriteSheet.tpsheet
 - Assets/Sprites/Character/SpawnDeath/SpawnDeathSpriteSheet.tpsheet
@@ -12,11 +13,13 @@ textureFileNames:
 - Assets/Sprites/Character/Car/CarSpriteSheet.png
 - Assets/Sprites/Character/FemaleStudent/Femalestudentspritesheet.png
 - Assets/Sprites/Character/FootballPlayer/FootballplayerSpriteSheet.png
+- Assets/Sprites/Character/FootballPlayer/FootballplayerSpriteSheet.png
 - Assets/Sprites/Character/MaleStudent/Malestudentspritesheet.png
 - Assets/Sprites/Character/Prof/ProfSpriteSheet.png
 - Assets/Sprites/Character/SpawnDeath/SpawnDeathSpriteSheet.png
 - Assets/TexturePackerImporter/Example/SpriteSheet/sprites.png
 normalmapFileNames:
+- 
 - 
 - 
 - 

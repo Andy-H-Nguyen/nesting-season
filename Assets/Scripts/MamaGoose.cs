@@ -34,6 +34,7 @@ public class MamaGoose : MonoBehaviour {
 	}
 
 	public void PlayAttack() {
+		gameObject.GetComponent<AudioSource> ().Play ();
 		Animator anim = gameObject.GetComponent<Animator> ();
 		if (anim.GetCurrentAnimatorStateInfo (0).IsName ("MamaGooseWalkRight")) {
 			anim.Play ("MamaGooseAttackRight");

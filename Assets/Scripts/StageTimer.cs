@@ -3,13 +3,14 @@ using UnityEngine.UI;
 using System.Collections;
 
 public class StageTimer : MonoBehaviour {
-	float timeLeft = 120;
+	public float timeLeft = 120;
 
 	public GameObject levelManager;
+	public GameObject UIBlock;
 
 	// Use this for initialization
 	void Start () {
-	
+		UIBlock.SetActive (false);
 	}
 	
 	// Update is called once per frame
@@ -17,10 +18,16 @@ public class StageTimer : MonoBehaviour {
 		timeLeft -= Time.deltaTime;
 		if(timeLeft < 0)
 		{
-			levelManager.GetComponent<LevelManager> ().LoadLevel ("Start Menu");
+			Time.timeScale = 0;
+
+			UIBlock.SetActive (true);
 		}
-			
+
 		Text txt = gameObject.GetComponent<Text> ();
 		txt.text = "Time: " + (int) timeLeft;
+	}
+
+	void EndGame () {
+		levelManager.GetComponent<LevelManager> ().LoadLevel ("Start Menu");
 	}
 }
