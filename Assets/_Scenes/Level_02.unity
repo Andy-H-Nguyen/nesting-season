@@ -839,7 +839,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Gameover
+  m_Text: Times Up!
 --- !u!222 &445649968
 CanvasRenderer:
   m_ObjectHideFlags: 0
